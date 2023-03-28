@@ -5,7 +5,8 @@
     android:orientation="horizontal">
 
 
-    <ImageView android:id="@+id/imageView"
+    <ImageView
+        android:id="@+id/imageView"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_gravity="center"
@@ -18,7 +19,8 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         >
-    <TextView android:id="@+id/tvName"
+    <TextView
+        android:id="@+id/tvName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
@@ -27,7 +29,8 @@
         android:textStyle="bold"
         />
 
-        <TextView android:id="@+id/tvDesc"
+        <TextView
+            android:id="@+id/tvDesc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
